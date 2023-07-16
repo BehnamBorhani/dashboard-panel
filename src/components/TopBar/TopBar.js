@@ -9,7 +9,7 @@ export default function TopBar() {
       <div className="topbar">
          <div className="wrapper">
             <div className="left">
-               <span className="logo">SabzLearn</span>
+               <span className="logo">Dashboard Panel</span>
             </div>
 
             <div className="right">

@@ -5,8 +5,8 @@ import "./Features.scss";
 export default function Features() {
    const [features, setFeatures] = useState([
       { title: "Revanue", money: "$2,415", rate: -11.4, arrowUpIcon: false },
-      { title: "Sales", money: "$2,415", rate: -1.4, arrowUpIcon: false },
-      { title: "Cost", money: "$2,415", rate: +2.4, arrowUpIcon: true },
+      { title: "Sales", money: "$2,415", rate: -1.4, arrowUpIcon: true },
+      { title: "Cost", money: "$2,415", rate: +2.4, arrowUpIcon: false },
    ]);
 
    return (
