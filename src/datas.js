@@ -216,4 +216,53 @@ let userRows = [
    },
 ];
 
-export { xAxisData, newMembers, transactions, userRows };
+let products = [
+   {
+      id: 1,
+      title: "Asus",
+      avatar: "images/products/asus.jpeg",
+      price: 890,
+   },
+   {
+      id: 2,
+      title: "Acer",
+      avatar: "images/products/acer.jpg",
+      price: 890,
+   },
+   {
+      id: 3,
+      title: "HP",
+      avatar: "images/products/hp.jpg",
+      price: 890,
+   },
+   {
+      id: 4,
+      title: "Dell",
+      avatar: "images/products/dell.jpg",
+      price: 890,
+   },
+];
+
+const productsData = [
+   {
+      name: "Jan",
+      sales: 4000,
+   },
+   {
+      name: "Feb",
+      sales: 3000,
+   },
+   {
+      name: "Mar",
+      sales: 5000,
+   },
+];
+
+export {
+   xAxisData,
+   newMembers,
+   transactions,
+   userRows,
+   products,
+   productsData,
+};
