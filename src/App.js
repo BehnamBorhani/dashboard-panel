@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
    const router = useRoutes(Routes);
-
+   
    return (
       <>
          <TopBar />
